@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warung Nasi Kuning Ibu Elah</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER FIXED -->
+<header class="header-fixed">
+    <div class="container header-content">
+        <h1>Warung Nasi Kuning Ibu Elah</h1>
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#menu">Menu</a>
+            <a href="#testimoni">Testimoni</a>
+            <a href="#promo">Promo</a>
+            <a href="#lokasi">Lokasi</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO / SLIDER -->
+    <section class="slider section-offset" id="beranda">
+        <button class="prev">&#10094;</button>
+        <div class="slides">
+            <img src="assets/nasi kuning hero1.jpg" alt="Nasi kuning lezat">
+            <img src="assets/nasi kuning hero3.jpg" alt="Suasana warung">
+            <img src="assets/nasi kuning hero2.jpg" alt="Hidangan nasi kuning">
+        </div>
+        <button class="next">&#10095;</button>
+        <div class="dots"></div>
+    </section>
+
+    <!-- INTRO -->
+    <article class="intro section-offset">
+        <h2>Selamat Datang</h2>
+        <p>Nikmati kelezatan Nasi Kuning khas Ibu Elah dengan cita rasa autentik dan harga ramah kantong.</p>
+    </article>
+
+    <!-- MENU -->
+    <article id="menu" class="menu-section section-offset">
+        <header><h2>Menu Kami</h2></header>
+        <div id="menu-container" class="menu-grid"></div>
+    </article>
+
+    <!-- TESTIMONI -->
+    <section class="testimoni section-offset" id="testimoni">
+        <h2>Apa Kata Pelanggan</h2>
+        <div class="testimoni-grid">
+            <div class="testimoni-card">
+                <p>"Nasi kuning terenak menurut saya! Sambalnya mantap banget."</p>
+                <h4>— Dewi, Karyawan Kantor</h4>
+            </div>
+            <div class="testimoni-card">
+                <p>"Harga ramah kantong tapi rasa istimewa. Langganan tiap pagi."</p>
+                <h4>— Andi, Mahasiswa</h4>
+            </div>
+            <div class="testimoni-card">
+                <p>"Pelayanan cepat dan porsinya pas. Recommended buat sarapan."</p>
+                <h4>— Ibu Rini, Warga sekitar</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROMO -->
+    <aside class="promo section-offset" id="promo">
+        <h3>Promo Hari Ini</h3>
+        <img src="assets/promo nasi kuning.png" alt="Promo nasi kuning" class="promo-img">
+        <p>Beli 2 porsi nasi kuning, gratis teh manis!</p>
+    </aside>
+
+    <!-- LOKASI / GOOGLE MAPS -->
+    <section class="lokasi section-offset" id="lokasi">
+        <h2>Lokasi Warung</h2>
+        <p>Kunjungi warung kami untuk menikmati Nasi Kuning Ibu Elah langsung di tempat.</p>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.214372619492!2d107.5968431!3d-6.888745999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7cbc7df4767%3A0x1c6166f1183d12cf!2sJl.%20Cihampelas%20Gg%20Pangumbahan%20No.100A%2F25%2C%20Bandung!5e0!3m2!1sid!2sid!4v1732140025019"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>Lokasi: Jl. Cihampelas Gg Pangumbahan No.100A/25, Bandung</p>
+    <p>&copy; <span id="year"></span> Warung Nasi Kuning Ibu Elah</p>
+</footer>
+
+<script src="script.js"></script>
+
+<a href="https://wa.me/6283122045089?text=Halo%20Ibu%20Elah,%20saya%20ingin%20pesan%20nasi%20kuning"
+class="wa-float" target="_blank">
+    💬 Pesan via WhatsApp
+</a>
+
+</body>
+</html>
